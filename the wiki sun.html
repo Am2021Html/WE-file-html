@@ -1,0 +1,83 @@
+<html>
+ <head>
+  <title> The Wiki sun - wikisun.qubece.ca -- Accucil  </title><meta content='Amirhossein'/><meta content='Tor(application)'/>
+ </head>
+ <body>
+ <div id="container">
+  <span id="l1"></span>
+  <span id="l2"></span>
+  <span id="l3"></span>
+ </div>
+   <h2><center> Bienvenue </h2></center>
+    <br />
+	<p>Il s'agit d'un type de Wikipédia, mais il n'est pas accessible au public, mais vous devez avoir un tor pour visiter ce site Web. Reconnaissant.</p>
+	<p> Ce wiki est fait à Montréal, Canada </p>
+	<p>  Les autos n’ont pas fini de zigzaguer
+La saison des nids-de-poule, sera épouvantable en raison de la météo préviennent des experts <p></p><img src="https://m1.quebecormedia.com/emp/emp/66004757_242585f1f7b60b-18a5-4acf-956d-afeb6cc9a0c4_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=2000&h=1334&width=968" width="560" height="350"/><p></p>• À lire aussi: La météo malmène nos routes
+
+• À lire aussi: Mon pays, c’est la tempête de neige
+
+• À lire aussi: CAA-Québec, ce n’est pas seulement pour l’auto, c’est aussi pour la maison!
+« On a des up and down avec de la pluie, de la neige et du verglas depuis quatre semaines. Il y a plusieurs épisodes de gel et dégel. Ç’a magané pas mal les rues en 2022 et on devrait se retrouver avec une saison épouvantable pour les nids-de-poule », lance Nicolas Ryan, porte-parole de CAA-Québec. <a href="https://www.journaldemontreal.com/2022/03/13/les-autos-nont-pas-fini-de-zigzaguer"> Roead More! </a><time> 2022 / march / 13 </time></p>
+ <hr />
+ <p>&copy; La copie est autorisée en nommant la source originale </p>
+ </body>
+</html>
+<style>
+  h2{ font-size: 31px }
+  h2{ color: white }
+  h2{ background: blue }
+  ::-webkit-scrollbar{
+   width: 10px
+  }
+  ::-webkit-scrollbar-track{
+    background-color:#f8f8f8
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgba(20,102,41)
+  }
+      #container{
+	    width: 50px;
+		height: 30px;
+		position: relative;
+		cursor: pointer;
+	  }
+	  span{
+	    width: 100%
+		height: 5px
+		background-color: red
+		border-radius: 5px
+		position: absolute
+		transition: 0.5s
+	  }
+	  #l1{ 
+	  top: 0px;
+	  }
+	  #l2{
+	    top: 12.5px;
+		left:0;
+	  }
+	  #l3{
+	    top: 25px
+	  }
+	  .open#l1{
+	  transform: rotate(135deg)
+	  top: 12.5px
+	  }
+	   .open#l2{
+	   left: -50px
+	   opacty: 0;
+	   }
+	     .open#l3{
+		  transform: rotate(-135deg)
+	  top: 12.5px
+		 }
+		 input{accent-color: rgba(209,12,142)}
+</style>
+<script>
+ var container = document.getElementById("container")
+ container.addEventListener("click", amalkard);
+ function amalkard(){
+   container.classList.toggle("open");
+ }
+</script>
